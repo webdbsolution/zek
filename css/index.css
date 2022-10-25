@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+@media (min-width: 950px) {
+    .banner {
+        width: 100%;
+        background-image: url(../img/topo.jpg);
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .text {
+        width: 100%;
+        padding: 200px 0px;
+        margin: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.598);
+    }
+
+    .text h1 {
+        color: #fff;
+    }
+
+    h1 {
+        font-weight: 500 !important;
+        font-size: 1.4em !important;
+        letter-spacing: 5px !important;
+    }
+
+    h2 {
+        font-weight: 400 !important;
+        font-size: 1em !important;
+        letter-spacing: 5px !important;
+    }
+
+    .manifesto {
+        padding: 6% 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+        background-color: #f1f1f1;
+        display: flex;
+    }
+
+    .manifest-img {
+        padding: 3% 5% 3% 13%;
+        width: 23% !important;
+        text-align: center;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit !important;
+    }
+
+    .imagem {
+        background-image: url(../img/ENG.\ LUCAS.jpg);
+        height: 18vw;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        margin: 6%;
+    }
+
+    .manifest-text {
+        width: 50%;
+    }
+
+    .manifest-text p,
+    .manifest-text h1,
+    .manifest-text h2 {
+        padding: 0% 6%;
+    }
+
+    p {
+        line-height: 1.6em;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .cidade {
+        padding: 15%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/Aerea.jpg);
+        background-attachment: fixed;
+    }
+
+    .we {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .preto {
+        background-color: black;
+        width: 25%;
+        padding-block: 10% 67%;
+        text-align: center;
+        margin-top: -1%;
+    }
+
+    .preto img {
+        width: 60%;
+    }
+
+    .missao,
+    .valores {
+        width: 23%;
+        margin-top: -5%;
+        background-color: #fff;
+        padding-inline: 2%;
+        height: 70%;
+    }
+
+    .missao h1,
+    .valores h1 {
+        padding-top: 5%;
+    }
+
+    .visao {
+        margin-top: 7%;
+    }
+
+    #carrosel {
+        width: 40%;
+
+    }
+
+    .foto {
+        background-image: url(../img/Porto-Alegre-Hidraulica-Moinhos-de-VentoLeo-Guerreiro-e-Pedro-Flores-acervo-Fototeca-Sioma-Breitman-dec1970-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 33vw;
+    }
+
+    .historia {
+        background-color: #f1f1f1;
+        display: flex;
+        margin-top: -48%;
+        padding: 4% 0px;
+    }
+
+    .historia-text {
+        width: 40%;
+        margin: auto;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .fa-circle {
+        color: #f1f1f1;
+        width: 10%;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner {
+        width: 100%;
+        background-image: url(../img/topo.jpg);
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .text {
+        width: 100%;
+        padding: 200px 0px;
+        margin: 0;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.598);
+    }
+
+    .text h1 {
+        color: #fff;
+    }
+
+    h1 {
+        font-weight: 500 !important;
+        font-size: 1.4em !important;
+        letter-spacing: 5px !important;
+    }
+
+    h2 {
+        font-weight: 400 !important;
+        font-size: 1em !important;
+        letter-spacing: 5px !important;
+    }
+
+    .manifesto {
+        padding: 6% 0;
+        width: 90%;
+        margin: auto;
+        margin-top: 3%;
+        background-color: #f1f1f1;
+    }
+
+    .manifest-img {
+        width: 100% !important;
+        display: flex;
+    }
+
+    .manifest-img p {
+        margin: auto 0;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit !important;
+    }
+
+    .imagem {
+        background-image: url(../img/ENG.\ LUCAS.jpg);
+        width: 33% !important;
+        height: 28vw;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        margin: 2%;
+    }
+
+    .manifest-text {
+        width: 100%;
+    }
+
+    .manifest-text p,
+    .manifest-text h1,
+    .manifest-text h2 {
+        padding: 0% 6%;
+    }
+
+    
+    .manifest-text p {
+        text-align: justify;
+    }
+
+    p {
+        line-height: 1.6em;
+        font-size: 1.2em;
+        font-weight: 300;
+    }
+
+    .cidade {
+        padding: 22%;
+        background-size: cover;
+        background-position: center;
+        background-image: url(../img/Aerea.jpg);
+        background-attachment: fixed;
+    }
+
+    .we {
+        width: 100%;
+    }
+
+    .preto {
+        display: none;
+    }
+
+    .preto img {
+        width: 60%;
+    }
+
+    .missao,
+    .valores {
+        width: 90%;
+        padding-inline: 2%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .missao h1,
+    .valores h1 {
+        padding-top: 5%;
+    }
+
+    .visao {
+        margin-top: 7%;
+    }
+
+    .foto {
+        background-image: url(../img/Porto-Alegre-Hidraulica-Moinhos-de-VentoLeo-Guerreiro-e-Pedro-Flores-acervo-Fototeca-Sioma-Breitman-dec1970-scaled.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 80vw;
+    }
+
+    .historia {
+        background-color: #f1f1f1;
+        padding: 4% 0px;
+    }
+
+    .historia-text {
+        padding-top: 3%;
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    .fa-circle {
+        color: #f1f1f1;
+        width: 10%;
+    }
+}
