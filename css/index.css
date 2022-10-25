@@ -242,7 +242,7 @@ body {
         padding: 0% 6%;
     }
 
-    
+
     .manifest-text p {
         text-align: justify;
     }
@@ -281,7 +281,11 @@ body {
         text-align: justify;
     }
 
-    .missao h1{
+    .valores {
+        padding-bottom: 15%;
+    }
+
+    .missao h1 {
         padding-top: 6%;
     }
 
@@ -303,9 +307,12 @@ body {
     }
 
     .historia-text {
-        padding-top: 6%;
+        padding-block: 15%;
         width: 90%;
         margin: auto;
+    }
+
+    .historia-text p {
         text-align: justify;
     }
 
