@@ -171,7 +171,7 @@ body {
         margin: 0;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+        background-attachment: unset;
     }
 
     .text {
@@ -257,7 +257,7 @@ body {
         background-size: cover;
         background-position: center;
         background-image: url(../img/Aerea.jpg);
-        background-attachment: fixed;
+        background-attachment: unset;
     }
 
     .we {
