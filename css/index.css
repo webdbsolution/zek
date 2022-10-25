@@ -208,7 +208,7 @@ body {
 
     .manifest-img {
         width: 100% !important;
-        display: flex;
+        text-align: center;
     }
 
     .manifest-img p {
@@ -228,11 +228,12 @@ body {
         border-radius: 50%;
         background-size: cover;
         background-position: center;
-        margin: 2%;
+        margin: auto;
     }
 
     .manifest-text {
         width: 100%;
+        padding-top: 6%;
     }
 
     .manifest-text p,
@@ -275,14 +276,13 @@ body {
     .missao,
     .valores {
         width: 90%;
-        padding-inline: 2%;
+        padding: 6% 2%;
         margin: auto;
         text-align: justify;
     }
 
-    .missao h1,
-    .valores h1 {
-        padding-top: 5%;
+    .missao h1{
+        padding-top: 6%;
     }
 
     .visao {
@@ -303,7 +303,7 @@ body {
     }
 
     .historia-text {
-        padding-top: 3%;
+        padding-top: 6%;
         width: 90%;
         margin: auto;
         text-align: justify;
