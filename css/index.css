@@ -3,10 +3,16 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 @media (min-width: 950px) {
+
+    .owl-carousel .owl-dots {
+        margin-left: -45px;
+    }
+
+
     .banner {
         width: 100%;
         background-image: url(../img/topo.jpg);
@@ -28,13 +34,13 @@ body {
         color: #fff;
     }
 
-    h1 {
+    .h1 {
         font-weight: 500 !important;
         font-size: 1.4em !important;
         letter-spacing: 5px !important;
     }
 
-    h2 {
+    .h6 {
         font-weight: 400 !important;
         font-size: 1em !important;
         letter-spacing: 5px !important;
@@ -55,6 +61,10 @@ body {
         text-align: center;
     }
 
+    .manifest-img p {
+        font-weight: 400;
+    }
+
     *,
     ::after,
     ::before {
@@ -70,19 +80,24 @@ body {
         margin: 6%;
     }
 
+    .risco {
+        padding-bottom: 80%;
+        border-right: 1px solid #979595;
+    }
+
     .manifest-text {
         width: 50%;
     }
 
     .manifest-text p,
     .manifest-text h1,
-    .manifest-text h2 {
+    .manifest-text h6 {
         padding: 0% 6%;
     }
 
-    p {
-        line-height: 1.6em;
-        font-size: 1.2em;
+    .p {
+        line-height: 1.5em;
+        font-size: 1.1em;
         font-weight: 300;
     }
 
@@ -102,7 +117,7 @@ body {
     .preto {
         background-color: black;
         width: 25%;
-        padding-block: 10% 67%;
+        padding-block: 10% 80%;
         text-align: center;
         margin-top: -1%;
     }
@@ -113,16 +128,32 @@ body {
 
     .missao,
     .valores {
-        width: 23%;
+        width: 20%;
         margin-top: -5%;
         background-color: #fff;
-        padding-inline: 2%;
+        padding: 3%;
         height: 70%;
     }
 
     .missao h1,
     .valores h1 {
-        padding-top: 5%;
+        padding-block: 5%;
+        font-size: 1.2em !important;
+    }
+
+    .missao p {
+        border-bottom: 1px solid #979595;
+        padding-bottom: 20%;
+    }
+
+    .missao p,
+    .valores p {
+        padding-left: 14%;
+    }
+
+    .valores p:nth-child(4) {
+        border-bottom: 1px solid #979595;
+        padding-bottom: 32.3%;
     }
 
     .visao {
@@ -134,9 +165,15 @@ body {
 
     }
 
+    .compromisso {
+        width: 60%;
+        font-weight: 600 !important;
+        letter-spacing: 2px !important;
+    }
+
     .foto {
-        background-image: url(../img/Porto-Alegre-Hidraulica-Moinhos-de-VentoLeo-Guerreiro-e-Pedro-Flores-acervo-Fototeca-Sioma-Breitman-dec1970-scaled.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
         background-position: center;
         width: 100%;
         height: 33vw;
@@ -151,7 +188,22 @@ body {
 
     .historia-text {
         width: 40%;
-        margin: auto;
+        margin: 0px auto 0px 5%;
+    }
+
+    .historia-text p,
+    .manifest-text p {
+        line-height: 1.5em !important;
+        font-size: 1.1em !important;
+        font-weight: 300 !important;
+    }
+
+
+    .historia-text h6,
+    .manifest-text h6 {
+        font-weight: 600 !important;
+        font-size: 0.8em !important;
+        letter-spacing: 2px !important;
     }
 
     .mapa {
@@ -176,7 +228,7 @@ body {
 
     .text {
         width: 100%;
-        padding: 200px 0px;
+        padding: 150px 0px;
         margin: 0;
         text-align: center;
         background-color: rgba(0, 0, 0, 0.598);
@@ -186,13 +238,13 @@ body {
         color: #fff;
     }
 
-    h1 {
+    .h1 {
         font-weight: 500 !important;
         font-size: 1.4em !important;
         letter-spacing: 5px !important;
     }
 
-    h2 {
+    .h6 {
         font-weight: 400 !important;
         font-size: 1em !important;
         letter-spacing: 5px !important;
@@ -233,12 +285,12 @@ body {
 
     .manifest-text {
         width: 100%;
-        padding-top: 6%;
+        padding-top: 10%;
     }
 
     .manifest-text p,
     .manifest-text h1,
-    .manifest-text h2 {
+    .manifest-text h6 {
         padding: 0% 6%;
     }
 
@@ -247,7 +299,7 @@ body {
         text-align: justify;
     }
 
-    p {
+    .p {
         line-height: 1.6em;
         font-size: 1.2em;
         font-weight: 300;
